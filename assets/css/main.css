@@ -55,10 +55,16 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-mark {
+/* mark {
 	background-color: transparent;
 	color: inherit;
-}
+} */
+
+/* Dark Mode Styles */
+body {
+	background-color: #1a1a1a; /* Dark background color */
+	color: #ffffff; /* Light text color */
+  }
 
 input::-moz-focus-inner {
 	border: 0;
@@ -91,7 +97,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #f7f7f7;
+		background-color: #1a1a1a;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
@@ -193,6 +199,12 @@ input, select, textarea {
 	}
 
 /* Container */
+
+	.container {
+		background-color: #1a1a1a; /* Dark background color for the container */
+		color: #ffffff; /* Light text color for the container */
+		/* Other styles for the container */
+  	}
 
 	.container {
 		margin: 0 auto;
@@ -1491,7 +1503,7 @@ input, select, textarea {
 		font-weight: 800;
 		margin: 0 0 1em 0;
 		font-size: 0.8em;
-		color: #444;
+		color: #fffefe;
 	}
 
 	form input[type="text"],
@@ -1779,7 +1791,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #1a1a1a;
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 2em;
@@ -1910,6 +1922,11 @@ input, select, textarea {
 	#header-wrapper {
 		padding: 4.5em 0 3em 0;
 	}
+	#features-wrapper {
+		background-color: #1a1a1a; /* Dark background color */
+		color: #ffffff; /* Light text color, adjust as needed */
+		/* Other styles for the features wrapper */
+	  }
 
 	#features-wrapper {
 		padding: 3em 0 3em 0;
@@ -2072,6 +2089,12 @@ input, select, textarea {
 
 /* Banner */
 
+
+	#banner {
+		background-color: #1a1a1a; /* Dark background color */
+		color: #ffffff; /* Light text color */
+	/* Other styles for the banner */
+  	}
 	#banner {
 		position: relative;
 		padding: 4.5em;
